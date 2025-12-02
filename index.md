@@ -3,22 +3,22 @@ layout: default
 title: Meditations
 ---
 
-# Meditations
+# Meditations In The Age Of Complexity
 
-A living collection of thoughts, questions, and reflections.
+Marcus Aurelius wrote Meditations as a private notebook — a place to reason with himself, confront his fears, refine his principles, and make sense of a world that often felt chaotic and beyond his control. He never intended it to be published.
 
-> These are rough notes, not conclusions.
+I’m borrowing the name for the same reason.
+
+This project isn’t meant to be polished or definitive. It’s a running journal of questions, uncertainties, and observations.
+
+These entries are not conclusions.
+They’re meditations in the original sense of the word:
+an attempt to think clearly about things that are difficult to think about.
 
 ---
 
-## December 2025 — Entry 1
+## Would It Be Cliche?
 
-Start writing here.
+Is it cliche to start this by asking what our purpose is here on this earth?
 
-You can use **bold**, *italic*, and lists:
-
-- A question that’s stuck in my head  
-- A future I can’t quite picture  
-- A fear I don’t fully understand  
-
-(When you add new entries later, just come back to this file and add new `##` headings and text underneath.)
+---
