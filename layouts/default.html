@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | {{ site.title }}</title>
+
+  <style>
+    body {
+      font-family: Georgia, serif;
+      background: #f8f5ec;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    .page-wrapper {
+      max-width: 720px;
+      margin: 40px auto;
+      padding: 24px;
+      background: #fdfaf1;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+
+    h1, h2, h3 {
+      font-weight: normal;
+    }
+
+    #lock-screen {
+      text-align: center;
+      padding: 80px 24px;
+    }
+
+    #lock-screen h1 {
+      font-size: 1.6rem;
+      margin-bottom: 8px;
+    }
+
+    #lock-screen p {
+      margin-bottom: 16px;
+      color: #555;
+    }
+
+    #lock-screen input[type="password"] {
+      padding: 8px 10px;
+      font-size: 1rem;
+      border: 1px solid #bbb;
+      border-radius: 4px;
+      max-width: 260px;
+      width: 100%;
+      box-sizing: border-box;
+      margin-bottom: 8px;
+    }
+
+    #lock-screen button {
+      padding: 8px 14px;
+      font-size: 0.95rem;
+      border-radius: 4px;
+      border: none;
+      cursor: pointer;
+      background: #333;
+      color: #f8f5ec;
+    }
+
+    #lock-screen button:hover {
+      opacity: 0.9;
+    }
+
+    #error-msg {
+      color: #b33;
+      font-size: 0.9rem;
+      min-height: 1.2em;
+      margin-top: 8px;
+    }
+
+    #content {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="page-wrapper">
+
+    <div id="lock-screen">
+      <h1>Private Journal</h1>
+      <p>This page is password protected.</p>
+      <input type="password" id="pw-input" placeholder="Enter password">
+      <br>
+      <button type="button" onclick="unlock()">Continue</button>
+      <div id="error-msg"></div>
+    </div>
+
+    <div id="content">
+      {{ content }}
+    </div>
+
+  </div>
+
+  <script>
+    // 👉 Change this to whatever password you want
+    const PASSWORD = "BRADY";
+
+    function unlock() {
+      const input = document.getElementById("pw-input");
+      const error = document.getElementById("error-msg");
+
+      if (!input) return;
+
+      if (input.value === PASSWORD) {
+        document.getElementById("lock-screen").style.display = "none";
+        document.getElementById("content").style.display = "block";
+        input.value = "";
+      } else {
+        error.textContent = "Incorrect password. Try again.";
+        input.value = "";
+        input.focus();
+      }
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+      const input = document.getElementById("pw-input");
+      if (!input) return;
+      input.addEventListener("keyup", function (e) {
+        if (e.key === "Enter") {
+          unlock();
+        }
+      });
+    });
+  </script>
+</body>
+</html>
