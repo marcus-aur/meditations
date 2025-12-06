@@ -3,7 +3,9 @@ layout: default
 title: Meditations
 ---
 
-# Ryan's Meditations
+# Meditations In The Current Age
+- By Ry.
+
 
 Ever since I was young, I've loved learning about Roman history. I can't actually remember what sparked it. Maybe it's a love of history in general that comes from my father, or maybe it was a movie I saw once and just thought "that looks cool."
 
