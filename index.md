@@ -17,10 +17,9 @@ They’re meditations in the original sense of the word:
 
 An attempt to think clearly about things that are difficult to think about.
 
-I may visit this daily, or there maybe be months or even years between writings. My only ask, for whoever may read this one day - don't judge me for my imperfections. I'm just a person trying to figure out this life like everyone else.
+I may visit this daily, or there maybe be months or even years between writings. My only ask, for whoever may read this one day - don't judge me for my imperfections. I'm just a person trying to figure out this life like everyone else. 
 
-
-
+(*This edit software I'm using doesn't have spell check for errors. So you'll have to read through the noise.*)
 
 ---
 
@@ -175,5 +174,38 @@ Will I keep saying "I'm too busy" right now?
 
 *Platonist - A follower of Plato, who focused on believing in a higher realm of perfect ideas. Often characterized by idealism, abstract thought and a focus on eternal truths like beauty, justice and goodness.*
 
+
+---
+
+## Pain vs. Sadness
+
+Depending on the state one is in, I think one hears things that can tend to have a more profound impact on oneself.
+
+Yesterday, I rewatched Ballerina, the spinoff movie from the John Wick Series that features Ana De Armas. 
+
+There's a moment in the movie, after de Armas finishes her Kikimora training, where she approaches her Director and questions the decision of the Director to dismiss another student (who was a friend of de Armas.) In response, the Director says the reason is due to the student only being filled with sadness, whereas de Armas' character is filled with pain due to her childhood trauma. The pain is what drives her to be better than anyone else.
+
+Is it true? Can you only be driven by pain and not sadness? Do they have to be mutually exclusive?
+
+Do I have pain? Or just sadness?
+
+I think I grew up quite fortunately. My family has given me a good life. I'm not inviting pain to be a part of my life, but I do wonder whether the lack of it holds me back from acheiving my potential. 
+
+In Aurelius' *Mediations*, page 22, #10 - he references Theophrastus (a student of Aristotle, and the "Father" of Botany) in his comparison of wrong acts.
+> Offenses committed through desire are more blameworthy than those committed through anger. For a man excited by anger seems to abandon his reason with pain and unconcious shrinking; but he who sins through desire, overpowered by pleasure, seems more intemperate and more unmanly in his offenses.
+> Sin committed with pleasure is more blameworthy than one committed with pain. The first is more like a person who has been wronged and through pain compelled to be angry; but the second is moved by his own impulse to do wrong, and carried on to sin by desire.
+
+So, do anger and desire fall underneath the category of pain, or of sadness? I would argue pain leads more to both anger and desire; sadness may lead to anger, but maybe not and typically it would lead to misdirected anger. I don't think sadness can lead to desire, but instead leads to the internalization of thoughts and tightening of your defenses. 
+
+*On a quick tangent - Ballerina is a fantastic movie. I was pleasantly surprised by the quality of the movie. It comes at a time when movie studios are trying to capture more of a female audience, so they're making female versions based on existing franchises. Typically, these movies have been terrible - mostly because I think they feel forced. I'm all for making movies for women (I love a good Rom Com), but they need to be originals and feel authentic. The prime example of this theme: "Ocean's 8." The Ocean's movies - an incredible original trilogy starring George Clooney, Brad Pitt, and the rest of an ensemble cast - are one of my favorite movie trilogies of all time. Then, trying to capitilize on this trend, they made an all female version and it was god awful. Let good things rest and age well.*
+
+---
+
+## What time am I a part of?
+
+>"Hard times create strong men. Strong men create good times. Good times create weak men. And weak men create hard times."
+- G. Michael Hopf, 2016. From *Those Who Remain*
+
+---
 
 
