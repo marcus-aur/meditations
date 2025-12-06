@@ -153,5 +153,27 @@ This video has stayed in my head for a very long time, and probably will for the
 
 Would you want your child to marry someone like you?
 
+---
+
+## I have no time
+
+Marcus Aurelius - Meditations. Page 14. #12
+
+>"From Alexander the Platonist, not frequently nor without necessity to say to anyone, or to write in a letter, "I have no time"; nor continually to excuse the neglect of duties required by our relation to those we live with, by alleging urgent business."
+
+How many times do I say to people "I'm too busy" as an excuse? A lot. It's almost a natural reflex at this point to default to that.
+In reality, I'm just choosing not to spend time with them. But it doesn't seem aceptable to say that, because I believe it will offend. I wish it was more common to say "I can't prioritize time with you right now" without it offending people. 
+
+Maybe I just need to surround myself with better people that understand this?
+
+I don't want to be rude, but I've come to realize how important your time is. It's your most finite resource, and the most equal resource of all. Everyone has the same hours in a day and chooses how to use them. As an introvert, I need time to myself to recharge. I can't give that important time away.
+
+In years past, I've done a good job of prioritizing those that are important to me. I keep my circle small and I like it that way. I try to give all of the time I can.
+
+Will I keep saying "I'm too busy" right now? 
+
+
+*Platonist - A follower of Plato, who focused on believing in a higher realm of perfect ideas. Often characterized by idealism, abstract thought and a focus on eternal truths like beauty, justice and goodness.*
+
 
 
