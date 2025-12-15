@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Meditations
+section: home
 ---
 
 # Meditations In The Current Age
