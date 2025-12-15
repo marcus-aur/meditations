@@ -2,6 +2,7 @@
 layout: default
 title: Journal
 permalink: /journal/
+section: journal
 ---
 
 # Journal
