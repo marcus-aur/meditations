@@ -65,12 +65,12 @@
       padding: 80px 24px;
     }
 
-    #lock-screen h1 {
+    #lock-title {
       font-size: 1.6rem;
       margin-bottom: 8px;
     }
 
-    #lock-screen p {
+    #lock-subtitle {
       margin-bottom: 16px;
       color: #555;
     }
@@ -116,19 +116,12 @@
     }
 
     /* Hide content + nav until unlocked */
-    #content {
-      display: none;
-    }
-
-    #nav {
-      display: none;
-    }
+    #content { display: none; }
+    #nav { display: none; }
 
     /* Optional: nicer on small screens without a hamburger */
     @media (max-width: 900px) {
-      .shell {
-        flex-direction: column;
-      }
+      .shell { flex-direction: column; }
       .nav {
         width: 100%;
         height: auto;
@@ -136,16 +129,14 @@
         border-right: none;
         border-bottom: 1px solid rgba(0,0,0,0.08);
       }
-      .page-wrapper {
-        margin: 20px auto;
-      }
+      .page-wrapper { margin: 20px auto; }
     }
   </style>
 </head>
 <body>
   <div class="shell">
 
-    <!-- Left nav (hidden until password is correct) -->
+    <!-- Left nav (hidden until site password is correct) -->
     <nav class="nav" id="nav">
       <a href="/meditations/">Home</a>
       <a href="/meditations/journal/">Journal</a>
@@ -157,9 +148,10 @@
       <div class="page-wrapper">
 
         <div id="lock-screen">
-          <h1>Fragmented Thoughts</h1>
-          <p>And many questions.</p>
-          <p class="hint">Hint: He was the joy of my life for many years.</p>
+          <h1 id="lock-title">Fragmented Thoughts</h1>
+          <p id="lock-subtitle">And many questions.</p>
+          <p class="hint" id="hint-text">Hint: The joy of my life for many years.</p>
+
           <input type="password" id="pw-input" placeholder="Enter password">
           <br>
           <button type="button" onclick="unlock()">Continue</button>
@@ -175,51 +167,160 @@
   </div>
 
   <script>
-  // 👉 Change this to whatever password you want
-  const PASSWORD = "Brady";
-  const STORAGE_KEY = "meditations_unlocked_v1";
+    // =========================
+    // PASSWORDS
+    // =========================
+    const SITE_PASSWORD = "Brady";
+    const JOURNAL_PASSWORD = "2479";
+    const BUSINESS_PASSWORD = "Zoley";
 
-  function showUnlocked() {
-    const lock = document.getElementById("lock-screen");
-    const content = document.getElementById("content");
-    const nav = document.getElementById("nav");
+    // =========================
+    // STORAGE KEYS (per tab/session)
+    // =========================
+    const SITE_KEY = "meditations_site_unlocked";
+    const JOURNAL_KEY = "meditations_journal_unlocked";
+    const BUSINESS_KEY = "meditations_business_unlocked";
 
-    if (lock) lock.style.display = "none";
-    if (content) content.style.display = "block";
-    if (nav) nav.style.display = "block";
-  }
+    // Jekyll injects this (set section: journal/business in page front matter)
+    const SECTION = "{{ page.section | default: 'home' }}";
 
-  function unlock() {
-    const input = document.getElementById("pw-input");
-    const error = document.getElementById("error-msg");
-    if (!input) return;
+    // =========================
+    // COPY + HINTS
+    // =========================
+    const LOCK_COPY = {
+      site: {
+        title: "Fragmented Thoughts",
+        subtitle: "And many questions.",
+        hint: "Hint: He was the joy of my life for many years."
+      },
+      journal: {
+        title: "Journal",
+        subtitle: "Private entries.",
+        hint: "Hint: Bike Lock."
+      },
+      business: {
+        title: "Business",
+        subtitle: "Restricted notes.",
+        hint: "Hint: The Business."
+      }
+    };
 
-    if (input.value === PASSWORD) {
-      // Remember unlock for this tab/session
-      sessionStorage.setItem(STORAGE_KEY, "1");
-      showUnlocked();
-      input.value = "";
-    } else {
-      if (error) error.textContent = "Incorrect password. Try again.";
+    function setLockText(which) {
+      const cfg = LOCK_COPY[which] || LOCK_COPY.site;
+      const t = document.getElementById("lock-title");
+      const s = document.getElementById("lock-subtitle");
+      const h = document.getElementById("hint-text");
+      const e = document.getElementById("error-msg");
+
+      if (t) t.textContent = cfg.title;
+      if (s) s.textContent = cfg.subtitle;
+      if (h) h.textContent = cfg.hint || "";
+      if (e) e.textContent = "";
+    }
+
+    function showUnlockedContent() {
+      document.getElementById("lock-screen")?.style.display = "none";
+      document.getElementById("content")?.style.display = "block";
+      document.getElementById("nav")?.style.display = "block";
+    }
+
+    function showLock(which) {
+      // show lock screen, hide content (nav depends on whether site is unlocked)
+      document.getElementById("lock-screen")?.style.display = "block";
+      document.getElementById("content")?.style.display = "none";
+      setLockText(which);
+      document.getElementById("pw-input")?.focus();
+    }
+
+    function unlock() {
+      const input = document.getElementById("pw-input");
+      const error = document.getElementById("error-msg");
+      if (!input) return;
+
+      const value = input.value;
+
+      // 1) Site unlock first (required everywhere)
+      if (!sessionStorage.getItem(SITE_KEY)) {
+        if (value === SITE_PASSWORD) {
+          sessionStorage.setItem(SITE_KEY, "1");
+          input.value = "";
+
+          // After site unlock, decide if we also need a section unlock
+          if (SECTION === "journal" && !sessionStorage.getItem(JOURNAL_KEY)) {
+            document.getElementById("nav").style.display = "block";
+            showLock("journal");
+            return;
+          }
+
+          if (SECTION === "business" && !sessionStorage.getItem(BUSINESS_KEY)) {
+            document.getElementById("nav").style.display = "block";
+            showLock("business");
+            return;
+          }
+
+          showUnlockedContent();
+          return;
+        }
+      }
+
+      // 2) Journal unlock (only on journal page)
+      if (SECTION === "journal" && !sessionStorage.getItem(JOURNAL_KEY)) {
+        if (value === JOURNAL_PASSWORD) {
+          sessionStorage.setItem(JOURNAL_KEY, "1");
+          input.value = "";
+          showUnlockedContent();
+          return;
+        }
+      }
+
+      // 3) Business unlock (only on business page)
+      if (SECTION === "business" && !sessionStorage.getItem(BUSINESS_KEY)) {
+        if (value === BUSINESS_PASSWORD) {
+          sessionStorage.setItem(BUSINESS_KEY, "1");
+          input.value = "";
+          showUnlockedContent();
+          return;
+        }
+      }
+
+      // Incorrect
+      error.textContent = "Incorrect password.";
       input.value = "";
       input.focus();
     }
-  }
 
-  document.addEventListener("DOMContentLoaded", function () {
-    // If already unlocked in this tab/session, skip the password screen
-    if (sessionStorage.getItem(STORAGE_KEY) === "1") {
-      showUnlocked();
-      return;
-    }
+    document.addEventListener("DOMContentLoaded", function () {
+      // If site not unlocked, show the main lock (with its hint)
+      if (!sessionStorage.getItem(SITE_KEY)) {
+        showLock("site");
+        return;
+      }
 
-    // Otherwise wire up Enter key
-    const input = document.getElementById("pw-input");
-    if (!input) return;
-    input.addEventListener("keyup", function (e) {
-      if (e.key === "Enter") unlock();
+      // Site unlocked: nav is visible everywhere
+      document.getElementById("nav").style.display = "block";
+
+      // If journal page needs its own password
+      if (SECTION === "journal" && !sessionStorage.getItem(JOURNAL_KEY)) {
+        showLock("journal");
+        return;
+      }
+
+      // If business page needs its own password
+      if (SECTION === "business" && !sessionStorage.getItem(BUSINESS_KEY)) {
+        showLock("business");
+        return;
+      }
+
+      // Otherwise show content
+      showUnlockedContent();
     });
-  });
-</script>
+
+    // Enter key submits
+    document.addEventListener("keyup", function (e) {
+      if (e.key === "Enter" && document.getElementById("lock-screen")?.style.display !== "none") {
+        unlock();
+      }
+    });
+  </script>
 </body>
 </html>
