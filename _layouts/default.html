@@ -175,36 +175,51 @@
   </div>
 
   <script>
-    // 👉 Change this to whatever password you want
-    const PASSWORD = "Brady";
+  // 👉 Change this to whatever password you want
+  const PASSWORD = "Brady";
+  const STORAGE_KEY = "meditations_unlocked_v1";
 
-    function unlock() {
-      const input = document.getElementById("pw-input");
-      const error = document.getElementById("error-msg");
+  function showUnlocked() {
+    const lock = document.getElementById("lock-screen");
+    const content = document.getElementById("content");
+    const nav = document.getElementById("nav");
 
-      if (!input) return;
+    if (lock) lock.style.display = "none";
+    if (content) content.style.display = "block";
+    if (nav) nav.style.display = "block";
+  }
 
-      if (input.value === PASSWORD) {
-        document.getElementById("lock-screen").style.display = "none";
-        document.getElementById("content").style.display = "block";
-        document.getElementById("nav").style.display = "block";
-        input.value = "";
-      } else {
-        error.textContent = "Incorrect password. Try again.";
-        input.value = "";
-        input.focus();
-      }
+  function unlock() {
+    const input = document.getElementById("pw-input");
+    const error = document.getElementById("error-msg");
+    if (!input) return;
+
+    if (input.value === PASSWORD) {
+      // Remember unlock for this tab/session
+      sessionStorage.setItem(STORAGE_KEY, "1");
+      showUnlocked();
+      input.value = "";
+    } else {
+      if (error) error.textContent = "Incorrect password. Try again.";
+      input.value = "";
+      input.focus();
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    // If already unlocked in this tab/session, skip the password screen
+    if (sessionStorage.getItem(STORAGE_KEY) === "1") {
+      showUnlocked();
+      return;
     }
 
-    document.addEventListener("DOMContentLoaded", function () {
-      const input = document.getElementById("pw-input");
-      if (!input) return;
-      input.addEventListener("keyup", function (e) {
-        if (e.key === "Enter") {
-          unlock();
-        }
-      });
+    // Otherwise wire up Enter key
+    const input = document.getElementById("pw-input");
+    if (!input) return;
+    input.addEventListener("keyup", function (e) {
+      if (e.key === "Enter") unlock();
     });
-  </script>
+  });
+</script>
 </body>
 </html>
