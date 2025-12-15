@@ -14,6 +14,40 @@
       padding: 0;
     }
 
+    /* Layout shell: left nav + main content */
+    .shell {
+      display: flex;
+      min-height: 100vh;
+    }
+
+    .nav {
+      width: 220px;
+      padding: 24px 18px;
+      border-right: 1px solid rgba(0,0,0,0.08);
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      background: #fdfaf1;
+      box-sizing: border-box;
+    }
+
+    .nav a {
+      display: block;
+      padding: 10px 10px;
+      margin-bottom: 6px;
+      text-decoration: none;
+      color: #333;
+      border-radius: 6px;
+    }
+
+    .nav a:hover {
+      background: rgba(0,0,0,0.04);
+    }
+
+    .main {
+      flex: 1;
+    }
+
     .page-wrapper {
       max-width: 720px;
       margin: 40px auto;
@@ -39,6 +73,14 @@
     #lock-screen p {
       margin-bottom: 16px;
       color: #555;
+    }
+
+    .hint {
+      font-size: 0.9rem;
+      color: #777;
+      margin-top: -8px;
+      margin-bottom: 16px;
+      font-style: italic;
     }
 
     #lock-screen input[type="password"] {
@@ -73,28 +115,63 @@
       margin-top: 8px;
     }
 
+    /* Hide content + nav until unlocked */
     #content {
       display: none;
+    }
+
+    #nav {
+      display: none;
+    }
+
+    /* Optional: nicer on small screens without a hamburger */
+    @media (max-width: 900px) {
+      .shell {
+        flex-direction: column;
+      }
+      .nav {
+        width: 100%;
+        height: auto;
+        position: static;
+        border-right: none;
+        border-bottom: 1px solid rgba(0,0,0,0.08);
+      }
+      .page-wrapper {
+        margin: 20px auto;
+      }
     }
   </style>
 </head>
 <body>
-  <div class="page-wrapper">
+  <div class="shell">
 
-    <div id="lock-screen">
-      <h1>Fragmented Thoughts</h1>
-       <p>Any many questions.</p>
-       <p class="hint">Hint: He was the joy of my life for many years.</p>
-      <input type="password" id="pw-input" placeholder="Enter password">
-      <br>
-      <button type="button" onclick="unlock()">Continue</button>
-      <div id="error-msg"></div>
+    <!-- Left nav (hidden until password is correct) -->
+    <nav class="nav" id="nav">
+      <a href="/meditations/">Home</a>
+      <a href="/meditations/journal/">Journal</a>
+      <a href="/meditations/ai/">AI</a>
+      <a href="/meditations/business/">Business</a>
+    </nav>
+
+    <div class="main">
+      <div class="page-wrapper">
+
+        <div id="lock-screen">
+          <h1>Fragmented Thoughts</h1>
+          <p>And many questions.</p>
+          <p class="hint">Hint: He was the joy of my life for many years.</p>
+          <input type="password" id="pw-input" placeholder="Enter password">
+          <br>
+          <button type="button" onclick="unlock()">Continue</button>
+          <div id="error-msg"></div>
+        </div>
+
+        <div id="content">
+          {{ content }}
+        </div>
+
+      </div>
     </div>
-
-    <div id="content">
-      {{ content }}
-    </div>
-
   </div>
 
   <script>
@@ -110,6 +187,7 @@
       if (input.value === PASSWORD) {
         document.getElementById("lock-screen").style.display = "none";
         document.getElementById("content").style.display = "block";
+        document.getElementById("nav").style.display = "block";
         input.value = "";
       } else {
         error.textContent = "Incorrect password. Try again.";
