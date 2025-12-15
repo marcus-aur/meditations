@@ -150,11 +150,11 @@
         <div id="lock-screen">
           <h1 id="lock-title">Fragmented Thoughts</h1>
           <p id="lock-subtitle">And many questions.</p>
-          <p class="hint" id="hint-text">Hint: The joy of my life for many years.</p>
+          <p class="hint" id="hint-text">Hint: He was the joy of my life for many years.</p>
 
           <input type="password" id="pw-input" placeholder="Enter password">
           <br>
-          <button type="button" onclick="unlock()">Continue</button>
+          <button type="button" id="unlock-btn">Continue</button>
           <div id="error-msg"></div>
         </div>
 
@@ -225,7 +225,6 @@
     }
 
     function showLock(which) {
-      // show lock screen, hide content (nav depends on whether site is unlocked)
       document.getElementById("lock-screen")?.style.display = "block";
       document.getElementById("content")?.style.display = "none";
       setLockText(which);
@@ -233,13 +232,15 @@
     }
 
     function unlock() {
+      console.log("unlock() fired", new Date().toISOString()); // TEMP DEBUG
+
       const input = document.getElementById("pw-input");
       const error = document.getElementById("error-msg");
       if (!input) return;
 
-      const value = input.value;
+      const value = (input.value || "").trim();
 
-      // 1) Site unlock first (required everywhere)
+      // 1) Site unlock first
       if (!sessionStorage.getItem(SITE_KEY)) {
         if (value === SITE_PASSWORD) {
           sessionStorage.setItem(SITE_KEY, "1");
@@ -263,7 +264,7 @@
         }
       }
 
-      // 2) Journal unlock (only on journal page)
+      // 2) Journal unlock
       if (SECTION === "journal" && !sessionStorage.getItem(JOURNAL_KEY)) {
         if (value === JOURNAL_PASSWORD) {
           sessionStorage.setItem(JOURNAL_KEY, "1");
@@ -273,7 +274,7 @@
         }
       }
 
-      // 3) Business unlock (only on business page)
+      // 3) Business unlock
       if (SECTION === "business" && !sessionStorage.getItem(BUSINESS_KEY)) {
         if (value === BUSINESS_PASSWORD) {
           sessionStorage.setItem(BUSINESS_KEY, "1");
@@ -284,13 +285,30 @@
       }
 
       // Incorrect
-      error.textContent = "Incorrect password.";
+      if (error) error.textContent = "Incorrect password.";
       input.value = "";
       input.focus();
     }
 
+    // Make unlock globally accessible (belt + suspenders)
+    window.unlock = unlock;
+
     document.addEventListener("DOMContentLoaded", function () {
-      // If site not unlocked, show the main lock (with its hint)
+      // Bind button click (avoids inline handler issues)
+      const btn = document.getElementById("unlock-btn");
+      if (btn) btn.addEventListener("click", unlock);
+
+      // Enter key submits (only while lock screen is visible)
+      const input = document.getElementById("pw-input");
+      if (input) {
+        input.addEventListener("keyup", function (e) {
+          if (e.key === "Enter" && document.getElementById("lock-screen")?.style.display !== "none") {
+            unlock();
+          }
+        });
+      }
+
+      // If site not unlocked, show the main lock
       if (!sessionStorage.getItem(SITE_KEY)) {
         showLock("site");
         return;
@@ -313,13 +331,6 @@
 
       // Otherwise show content
       showUnlockedContent();
-    });
-
-    // Enter key submits
-    document.addEventListener("keyup", function (e) {
-      if (e.key === "Enter" && document.getElementById("lock-screen")?.style.display !== "none") {
-        unlock();
-      }
     });
   </script>
 </body>
