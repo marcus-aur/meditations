@@ -150,7 +150,7 @@
         <div id="lock-screen">
           <h1 id="lock-title">Fragmented Thoughts</h1>
           <p id="lock-subtitle">And many questions.</p>
-          <p class="hint" id="hint-text">Hint: He was the joy of my life for many years.</p>
+          <p class="hint" id="hint-text">Hint: The joy of my life for many years.</p>
 
           <input type="password" id="pw-input" placeholder="Enter password">
           <br>
@@ -219,21 +219,27 @@
     }
 
     function showUnlockedContent() {
-      document.getElementById("lock-screen")?.style.display = "none";
-      document.getElementById("content")?.style.display = "block";
-      document.getElementById("nav")?.style.display = "block";
+      const lock = document.getElementById("lock-screen");
+      const content = document.getElementById("content");
+      const nav = document.getElementById("nav");
+
+      if (lock) lock.style.display = "none";
+      if (content) content.style.display = "block";
+      if (nav) nav.style.display = "block";
     }
 
     function showLock(which) {
-      document.getElementById("lock-screen")?.style.display = "block";
-      document.getElementById("content")?.style.display = "none";
+      const lock = document.getElementById("lock-screen");
+      const content = document.getElementById("content");
+      const input = document.getElementById("pw-input");
+
+      if (lock) lock.style.display = "block";
+      if (content) content.style.display = "none";
       setLockText(which);
-      document.getElementById("pw-input")?.focus();
+      if (input) input.focus();
     }
 
     function unlock() {
-      console.log("unlock() fired", new Date().toISOString()); // TEMP DEBUG
-
       const input = document.getElementById("pw-input");
       const error = document.getElementById("error-msg");
       if (!input) return;
@@ -247,14 +253,15 @@
           input.value = "";
 
           // After site unlock, decide if we also need a section unlock
+          const nav = document.getElementById("nav");
+          if (nav) nav.style.display = "block";
+
           if (SECTION === "journal" && !sessionStorage.getItem(JOURNAL_KEY)) {
-            document.getElementById("nav").style.display = "block";
             showLock("journal");
             return;
           }
 
           if (SECTION === "business" && !sessionStorage.getItem(BUSINESS_KEY)) {
-            document.getElementById("nav").style.display = "block";
             showLock("business");
             return;
           }
@@ -264,7 +271,7 @@
         }
       }
 
-      // 2) Journal unlock
+      // 2) Journal unlock (only on journal page)
       if (SECTION === "journal" && !sessionStorage.getItem(JOURNAL_KEY)) {
         if (value === JOURNAL_PASSWORD) {
           sessionStorage.setItem(JOURNAL_KEY, "1");
@@ -274,7 +281,7 @@
         }
       }
 
-      // 3) Business unlock
+      // 3) Business unlock (only on business page)
       if (SECTION === "business" && !sessionStorage.getItem(BUSINESS_KEY)) {
         if (value === BUSINESS_PASSWORD) {
           sessionStorage.setItem(BUSINESS_KEY, "1");
@@ -290,20 +297,18 @@
       input.focus();
     }
 
-    // Make unlock globally accessible (belt + suspenders)
-    window.unlock = unlock;
-
     document.addEventListener("DOMContentLoaded", function () {
-      // Bind button click (avoids inline handler issues)
+      // Bind button click
       const btn = document.getElementById("unlock-btn");
       if (btn) btn.addEventListener("click", unlock);
 
-      // Enter key submits (only while lock screen is visible)
+      // Bind Enter key
       const input = document.getElementById("pw-input");
       if (input) {
         input.addEventListener("keyup", function (e) {
-          if (e.key === "Enter" && document.getElementById("lock-screen")?.style.display !== "none") {
-            unlock();
+          if (e.key === "Enter") {
+            const lock = document.getElementById("lock-screen");
+            if (lock && lock.style.display !== "none") unlock();
           }
         });
       }
@@ -315,7 +320,8 @@
       }
 
       // Site unlocked: nav is visible everywhere
-      document.getElementById("nav").style.display = "block";
+      const nav = document.getElementById("nav");
+      if (nav) nav.style.display = "block";
 
       // If journal page needs its own password
       if (SECTION === "journal" && !sessionStorage.getItem(JOURNAL_KEY)) {
