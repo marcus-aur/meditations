@@ -212,3 +212,50 @@ So, do anger and desire fall underneath the category of pain, or of sadness? I w
 ---
 
 
+## The world is filled with so much hate recently
+
+The past year, and especially the past few weeks, it seems like the world is filled with so much hate. I don't even fully know how to describe it - it's maddening to me. 
+
+I think what really put me over the edge was the the discourse around the Superbowl halftime show. Bad Bunny, an artist from Puerto Rico performed and it was the highest viewed halftime show in history. I can't say I particularly enjoyed it, and on some level didn't understand it, but after digesting the show and reading about it the following days after it, I have some thoughts.
+
+For starters, I think it was a mistake to not have English subtitles for the performance. For something that gets planned months in advance, it would have been so simple to put subtitles so that the predominantly english-speaking viewing audience could understand it. It seemed an intentional move by either the NFL, or by Roc Nation (Jay-Z's record label that produces the show) to leave this aspect out - knowing that it would cause controversy (and therefore more publicity around it - even if negative.) 
+
+With that being said, the message of the show was perfect. To be inclusive of not only Puerto Ricans as Americans, but all nations from North to South America, and to spread a message that the only thing that can defeat hate is love - perfection. I love this message - we need more people in the world sharing this message. Unfortunately, all I've seen from right-wing media outlets is complaining and whining about feeling left out because they couldn't understand. 
+
+I can't talk about what's going on in the world right now without including the most important story (I think) of our generation. It's been amazing (in a bad way) to see the Epstein case unfold, and I'm sure I've read/seen more of it than the average person since I'm online a lot. There's no doubt in my mind that this is the greatest cover-up story in the history of our country, with the President at the center of the fold. I'm not sure how the Republicans can defend this behavior - it's abbhorent. The official case has 3 million documents, and the president has his name mentioned ~1 million times. It's genuinely pathetic that people continue to support this man. How can people truly believe that he wasn't involved? Yesterday, the Attorney General had a public hearing on this and there's only one word I can keep repeating to showcase this - pathetic. Watching her sit there and spew lies, as well as deflect in the most childish ways I've ever seen. How did these people get to the highest positions of our country? Imagine if this was Obama? He would have been ousted from the presidency in less than a week. 
+
+But it seems that our government is so corrupt at the highest levels that no one is going to do anything about this - it's sad. I'm not sure what I can do about this, except try and spread some positivity. 
+
+Maybe it's a product of what I'm viewing on different social media sites, reddit and youtube...but our nation seems like it's entirely devolving into a 3rd world country. Unemployment and homelessness continue to rise, prices of everything continue to get higher, we're attacking our allies abroad through tariffs (AKA financial threats), we're getting rid of safeguards and protections for the disabled and chronically sick. 
+
+The whole world seems to be laughing at us. 
+
+I just have one question to anyone who asks me about this topic - Is America great again? 
+
+---
+
+## The Discord decision
+
+Is this what we have to look forward to? Digital Identification and Age Verification from every online platform?
+
+I think lawmakers and other large companies are going to be closely watching the outcome of this decision by Discord to introduce age verification on their platform. Unless you upload a photo of yourself/your ID, you'll have restricted use on the platform because you'll automatically be deemed a "teen account."
+
+Let's get the obvious statement out of the way - we need to better protect children on the internet. I don't think anyone would disagree with this, but the way that we go about it is important. IMO this shouldn't be the job of a company, but rather the job of parents. Teach your child that there are bad things out there that they shouldn't be viewing, stop giving them access to technology just because you don't want to talk to them because you're busy, and learn how to use technology yourself (if you're a parent) so you can learn how to put restrictions in place when they inevitably search for bad things (because they're kids and they're curious.) I won't lie, it does crack me up a little bit when I see stories about children spending thousands and thousands of dollars over months on things like Minecraft and Roblox and then the parents get outraged about how this could happen...how about you don't get mad at the company and start to just check your bank statement regularly????
+
+If a company like Discord can get away with this move - then I think it's effectively over for the remainder of the internet. If it's successful, every company out there with a platform will move in this direction and it will become the standard. People on Discord are those that are chronically online and more internet-savvy. If this group conforms, then these companies will know that the average person won't care whatsoever, or even know that it is happening (because they probably won't read the long email that the companies send out explaining things in obscure terms.) 
+
+The only power that consumers have is their right to NOT purchase something. If everyone cancels their paid accounts en masse, then the company will reverse it's decision. I've never had a paid account - honestly, I'm not sure why a paid account is needed, I've looked at what it offers and it's hardly anything. 
+
+Without trying to sound dire - I think this is an extremely important moment in the history of the internet and this could be a catalyst to massive internet-related changes in the next few years. 
+
+Last thought - it's comical to me that the first sentence of Discord's [press release](https://discord.com/press-releases/discord-launches-teen-by-default-settings-globally) speaks about privacy when they had a massive leak not too long ago that released all the info of 7 million users. These companies cannot protect our data and I wouldn't put my ID online anywhere I wasn't federally mandated to. 
+
+
+
+
+
+
+
+
+
+
