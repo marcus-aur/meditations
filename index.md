@@ -250,6 +250,13 @@ Without trying to sound dire - I think this is an extremely important moment in 
 
 Last thought - it's comical to me that the first sentence of Discord's [press release](https://discord.com/press-releases/discord-launches-teen-by-default-settings-globally) speaks about privacy when they had a massive leak not too long ago that released all the info of 7 million users. These companies cannot protect our data and I wouldn't put my ID online anywhere I wasn't federally mandated to. 
 
+---
+
+## I have a lot to do today
+
+so why can't I get started on anything?
+
+Tomorrow, I stop saying tomorrow. Today, I get prepared for tomorrow.
 
 
 
