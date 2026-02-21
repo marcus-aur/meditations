@@ -258,6 +258,17 @@ so why can't I get started on anything?
 
 Tomorrow, I stop saying tomorrow. Today, I get prepared for tomorrow.
 
+---
+
+## A spider In My Room
+
+You know that moment of fear, when you see a spider, and then you've lost it? It leaves you with a chilling fear - even though we don't have any dangerous spiders near us...it's still the unknown. 
+
+Could it be crawling up my leg? Could it be on my clothes?
+
+All I wanted was to tell you about it, but I didn't. 
+
+
 
 
 
