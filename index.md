@@ -287,6 +287,20 @@ Travel is something I've been thinking about more and more the past few weeks. H
 
 Maybe one day when I retire I would be happy teaching english in another country. Living a simple life. Being comfortable with crossing over.
 
+---
+
+## A new puppy
+
+My parents got a puppy recently and I've been watching him for a weekend. Boy, is it a LOT of work - I didn't realize.
+
+His name is Archie and he's the cutest little boy. I'm happy for them that they got him, and he's been bringing me joy, but he does make me sad sometimes - he makes me miss Brady. Makes me miss all the moments of running outside with him. The moments I had him in Philly. The pup cups from Starbucks. 
+
+I haven't had enough appreciation for my parents going through training a puppy multiple times now. I had no real responsibility with Brady and Murphy if I'm being honest. I could have all of the good moments and leave when it got tough. The past 4 days, I've seen just a small glimpse of the tough side. Cleaning up the pee when he goes on the carpets, the constant need to refill the water bowl, taking him outside (what feels like) 38947x per day. It's given me a small appreciation for the work that goes into raising a living being.
+
+But this phase is where the true bond is built - and I want to be more present for him. I'll watch him again in another two weeks while they go away - we'll continue working on "paw" until I can surprise my parents with it.
+
+For right now, he's starting to wake up for a nap. Biting mode will be activated soon, but for now I'll get off my computer and join him for cuddles and big stretches on the floor.
+
 
 
 
