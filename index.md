@@ -269,7 +269,23 @@ Could it be crawling up my leg? Could it be on my clothes?
 All I wanted was to tell you about it, but I didn't. 
 
 
+---
 
+## attraversiamo.
+
+Italian for "let's cross over." Made popular by the movie Eat, Pray Love - a movie about the journey of finding balance and loving yourself.
+
+I think we might say "Giving in" in english as a similar phrase. Lending yourself fully to something. Giving in to your career (hopefully you love it.) Giving in to your desires. Giving in to love.
+
+It's not an easy thing to do - to find balance and give in. I've struggled with it.
+
+Part of me wants to disappear to another country for a month or two and come back a changed person. There's a lot of stress in this world. I don't think I could actually follow through on it though - I'm too high maintanence and I worry about the nuance too much. 
+
+How would I pay for it? Would I be able to find a job when I come back? Would I come back? Would I miss my family? Would I feel too guilty about leaving my aging parents behind? Would I just be using this as an excuse to run away instead of face the hardships of life?
+
+Travel is something I've been thinking about more and more the past few weeks. Huyen has been in Vietnam and part of me wishes I was there with her. Aside from the heat, it seems like a wonderful place where life is just simpler. She talks about how no one there plans for anything, they just take it day by day, which sounds less stressful than the "American dream."
+
+Maybe one day when I retire I would be happy teaching english in another country. Living a simple life. Being comfortable with crossing over.
 
 
 
