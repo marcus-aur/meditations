@@ -266,7 +266,7 @@ You know that moment of fear, when you see a spider, and then you've lost it? It
 
 Could it be crawling up my leg? Could it be on my clothes?
 
-All I wanted was to tell you about it, but I didn't. 
+All I wanted was to tell you about it, but I didn't, because we aren't speaking right now.
 
 
 ---
@@ -301,9 +301,47 @@ But this phase is where the true bond is built - and I want to be more present f
 
 For right now, he's starting to wake up for a nap. Biting mode will be activated soon, but for now I'll get off my computer and join him for cuddles and big stretches on the floor.
 
+---
 
+## A sense of calm in the house
 
+They say we're all a "product of our environment." That what goes on around us inherently affects us. 
 
+I've always thought about that phrase as it relates to how one grows up. However, tonight I'm realizing it's just as pertinent to the environment one lives in as an adult. 
+
+The past 3 years I've lived with roommates and they have been a source of stress for me. Dealing with them (or more-likely avoiding them,) has been a source of day-to-day anxiety for me.
+
+Now they're gone and tonight I feel similar to how I felt when I moved to Philadelphia. I remember a sense of calm. Which, in a way, I shouldn't have been calm at all - it was my first time living alone and I was in a city I knew nothing about. Settling in to my couch, it was a feeling of control over my environment. 
+
+Tonight, with my new roommate, and long-time friend, Ned finally moved in - I feel like the anxiety has been lifted. Ned has already made this house feel more like a home in just a few days than it ever felt in the past year, and for that I'm thankful.
+
+Growing up I didn't think I'd still have a roommate at 32, but life works in unexpected ways. If I have to have a roommate, I'm glad it's him.
+
+I can relax on my couch with a sense of calm in the house. 
+
+---
+
+## I have a niece now
+
+Today I got to meet my best friend's daughter. Without sounding too dramatic, I think it has changed me emotionally. I'm not sure I have the right words in this moment to describe how I'm feeling. 
+
+There's a sense of joy and elation, there's fear over her health (she was in the NICU for 2 days, but was just cleared to be released), there's protectiveness and curiosity, and a certain wondering about how _anyone_ is mature enough to have a baby.
+
+I almost teared up when Bill went to sign me in to the NICU and the nurse asked what my relationship to the baby was. Without hesitation, he responded, "Uncle." 
+
+About a month ago Bill came over for coffee and said he needed to talk to me about something important related to the baby. He started talking about responsibilities and how,  even though they aren't religious themselves, they wanted their daughter to have godparents. He told me Kevin would be her godfather and I wasn't shocked - I wasn't expecting to have that role since he has two brothers. But then what he said next did shock me - him and Venesia decided that they would like me to be her guardian if anything ever happened to them. He said it wasn't even a debate - they both knew that they wanted me to have that responsibility. Also without hesitation, I said yes.
+
+Walking into the NICU - I didn't know what to expect. The first baby I saw as I rounded the corner must have been the size of a potato, fully hooked up to wires inside of an incubator with a mother next to them that just looked so drained of life. He told me that since his daughter had some liquid in her lungs from birth, she had been on a breathing machine. I thought I was going to see her attached to the machine and it would break my heart a little bit. Fortunately, she was doing well, had come off the machine, and she only had a light rash on her face.
+
+She was beautiful. 
+
+I couldn't believe how soft her hair was. I've never held, let alone touch, a newborn before. The softest hair. The softest skin. I already can't wait to spend more time with her and fully hold her once she's home and the new family of three is settled in. They should be able to leave the hospital tomorrow.
+
+One day when she's older I'll let her in on a little secret - I was the first one to know her name.
+
+Ivy Jane
+7lbs 13oz
+Born at 2:56pm
 
 
 
