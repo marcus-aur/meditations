@@ -343,5 +343,24 @@ Ivy Jane
 7lbs 13oz
 Born at 2:56pm
 
+---
+
+## The Many-Worlds Interpretation
+
+What if there was a world where cancer was cured? What if there was a world where my grandparents lived longer? What if there was a world where I chose a different path in life?
+
+I started watching a new TV show called Dark Matter. The whole premise of the show revolves around trying to put a human being in superposition. It's related to Schrödinger's cat experiment - a concept of quantum mechanics that theorizes what would happen if you put a cat inside of a box with a deadly poison that would be released once the box is opened. The cat becomes superpositioned, both alive and dead at the same time - at least, that's what Schrödinger's interpretation of it is. The alternative is the Many-Worlds interpretation, which theorizes that at basically every event in life the universe splits and there are an infinite number of universes created from each divergence. 
+
+Obviously, one is more based in reality, and one is completely theoretical. But I like thinking of these theoretical things - it's exciting. Why couldn't it be possible? 
+
+The implications of something like this being even remotely true are terrifying. That there could be an infinite number of me running around out there in different universes. At each crossroad in my life where I had to make a decision, a different version of me split out. Where I choose to go to college. Wether or not I broke up with a girlfriend. There could be a universe where I never picked up a tennis racket, so I don't even know how to play a sport that I love in this universe. 
+
+Bottom line, these are the shows I enjoy. They challenge your brain to think about possibilities. 
+Maybe some would say it's maddening - constantly wondering what if - not being grounded in reality.
+
+Our minds are capable of amazing imagination. It's only the constructs of society we ourselves created that reinforce that we shouldn't have wild dreams. Children are allowed to imagine the wildest things and we encourage it. Then, one day, you hit a certain age and everyone around you is telling you to grow up. Creativity and imagination are stifled.
+
+Maybe we would have found a key to unlocking these many worlds by now - if more people were encouraged to dream throughout their life. 
+
 
 
