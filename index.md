@@ -362,5 +362,20 @@ Our minds are capable of amazing imagination. It's only the constructs of societ
 
 Maybe we would have found a key to unlocking these many worlds by now - if more people were encouraged to dream throughout their life. 
 
+---
+
+## Frisson
+
+The feeling of chills leaving your body. Not everyone can feel frisson. I'm so lucky I can.
+
+It's not too often I come across a song where I feel this. 
+
+This song, though simple, feels like pure passion. The build up, the visuals, everything about it.
+
+https://www.youtube.com/watch?v=JEIcrJ1pSeg&list=RDJEIcrJ1pSeg&start_radio=1
+
+
+
+
 
 
