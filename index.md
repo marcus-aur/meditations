@@ -374,6 +374,50 @@ This song, though simple, feels like pure passion. The build up, the visuals, ev
 
 https://www.youtube.com/watch?v=JEIcrJ1pSeg&list=RDJEIcrJ1pSeg&start_radio=1
 
+---
+
+## A & A
+
+I think there are two major contributors to my mental state right now. Growing anxiety, and pesky acid relfux. And both are probably contributing to making the other worse. 
+
+My acid reflux has been worse than ever. And I'm frustrated at myself for not handling it better. I blame my mother for giving me a love of chocolate and coffee, the two demons when it comes to acid reflux. I know what I need to do, and now I intend to follow suite. I cannot let this control me any longer. I'm sick of the constant theoretical guillotine weighing above my head, waiting to strike when I make bad choices. From now on, I'm going to eat healthy, and I'm going to have smaller portion sizes - that's the main component. Not only will that lessen the acid itself, but the added benefit of course is that I should lose weight, and that will have a double-positive effect. 
+
+Anxiety is another creature, something I haven't really talked about with anyone. I think I've just started to notice it, but if I'm being truthful I've probably had it undiagnosed for years. It's the reason I had no drive when I was in school or working at Cigna. everything came so easy to me when I was younger, I felt so gifted, and now I just feel burnt out constantly. It's so much easier to say "i'll do that tomorrow", and then suddenly each tomorrow adds up to years, and it's frightening to think about lost time. But that stops now - I'm going to face it head on and make changes in my life. I need to stop having so many outstanding items in my life, and I need to tackle them 1 by 1.
+
+---
+
+## A silly thing
+
+Crushes are funny. They can come and go quickly. Sometimes they linger for months, if not years. 
+
+I normally wait until the pass, if they do, and just forget all about them.
+
+It's odd how a single moment can spark a feeling again. Sometimes it's a simple thing you notice about someone's eyes and the lines they have around them from so much smiling. 
+
+---
+
+## Early Sunsets
+
+I can't stand the days going dark early. Daylight savings time is outdated and needs to be abolished. It's just a sign that we have a few cold months ahead of us. Here comes hibernation mode until the spring. 
+
+---
+
+## Some hope in this world
+
+This week, the midterms happened and everyone is calling it a blue tsunami. I was proud to be a part of that blue tsunami, even if I still think my vote was meaningless, given that I live in CT and we will remain blue for quite some time, I'd imagine (understanding that Texas, which previously I would not have believed would have flipped, just did.) 
+
+It was actually the first time I've voted. I told people that I had voted in the past and lied, just because I was annoyed at the conversations that would sprout and the constant replies of "well, what if everyone thought their vote didn't matter." 
+
+This was the first time I felt compelled to do something, because things have gotten too out of control. And I'm so glad the rest of the country is waking up to the madness that the orange man has caused. 
+
+I could sit here and say that I don't know how we let it get to this point, but the truth is that I think I do understand - it's propaganda. 
+
+I'm glad we're seeing some hope in this world and can hopefully shift the balance of scales back to normal. The dems need to do something offensive this time. If they're passive, they're only going to let his movement grow again. There will be outcry if we continue to let the things from the past slide.
+
+I have hope, but I won't get my hopes high. 
+
+Au revoir, le foie gras.
+
 
 
 
