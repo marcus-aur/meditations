@@ -418,6 +418,14 @@ I have hope, but I won't get my hopes high.
 
 Au revoir, le foie gras.
 
+---
+
+## I can't focus
+
+I haven't been able to think about a single thing all day, after last night. I was so excited when I heard you were coming over. I was trying to contain it, but it felt like I was back in high school asking a girl out on a date for the first time. The pit you get in the bottom of your stomach, worrying if the night went well.
+
+Maybe I'll ask for your number next time.
+
 
 
 
